@@ -1,0 +1,56 @@
+<resources>
+    <!-- Base application theme. -->
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#333333</item>
+        <item name="colorPrimaryDark">#222222</item>
+        <item name="colorAccent">@color/plural_sight_color</item>
+<!--        <item name="android:textSize">30sp</item>-->
+<!--        <item name="editTextStyle">@style/custom_text_view</item>-->
+
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="FullScreenWindow.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="FullScreenWindow.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="FullScreenWindow.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="custom_text_view" parent="Widget.AppCompat.EditText">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/plural_sight_color</item>
+        <item name="android:textColorHint">@color/colorPrimary</item>
+
+
+
+    </style>
+
+    <!-- Delete ActionBar -->
+    <style name="FullScreenWindow" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+
+    </style>
+    <style name="edit_text_style" parent="@style/TextAppearance.AppCompat.Medium">
+        <item name="android:textColor">@color/plural_sight_color</item>
+        <item name="android:tint">@color/colorAccent</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <style name="float_add" parent="@style/Widget.Design.FloatingActionButton">
+        <item name="srcCompat"> @drawable/ic_baseline_add_circle_24</item>
+        <item name="android:tint">@android:color/white</item>
+    </style>
+</resources>

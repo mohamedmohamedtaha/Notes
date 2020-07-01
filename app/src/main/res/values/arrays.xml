@@ -1,0 +1,17 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Google </item>
+        <item>Facebook</item>
+        <item>Twitter</item>
+
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>www.https://google.com</item>
+        <item>www.https://facebook.com</item>
+        <item>www.https://twitte.com</item>
+
+
+    </string-array>
+</resources>
